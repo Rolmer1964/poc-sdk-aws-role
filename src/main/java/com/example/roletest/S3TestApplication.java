@@ -8,6 +8,5 @@ public class S3TestApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(S3TestApplication.class, args);
-        System.out.printf("rodou");
     }
 }

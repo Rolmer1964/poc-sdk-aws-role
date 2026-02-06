@@ -23,7 +23,7 @@ public class S3Service {
                 .contents()
                 .stream()
                 .map(S3Object::key)
-                .collect(Collectors.toList());;
+                .collect(Collectors.toList());
 
         return nomesDosFiles;
 
