@@ -1,4 +1,4 @@
-package com.example.iamtest;
+package com.example.roletest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

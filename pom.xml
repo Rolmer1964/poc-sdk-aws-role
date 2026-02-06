@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>iamtest</artifactId>
+    <artifactId>role-poc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>iamtest</name>
-    <description>testing aws using sdk</description>
+    <name>roletest</name>
+    <description>testing roles using sdk</description>
     <url/>
 
     <properties>
@@ -22,18 +22,6 @@
         <mapstruct.version>1.6.3</mapstruct.version>
     </properties>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>software.amazon.awssdk</groupId>
-                <artifactId>bom</artifactId>
-                <version>${aws.java.sdk.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -41,14 +29,8 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-webmvc-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
             <groupId>software.amazon.awssdk</groupId>
-            <artifactId>iam</artifactId>
+            <artifactId>s3</artifactId>
             <version>${aws.java.sdk.version}</version>
         </dependency>
 

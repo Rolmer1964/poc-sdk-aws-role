@@ -1,4 +1,4 @@
-package com.example.iamtest;
+package com.example.roletest;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
