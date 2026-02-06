@@ -4,12 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IamtestApplication {
+public class S3TestApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(IamtestApplication.class, args);
+        SpringApplication.run(S3TestApplication.class, args);
         System.out.printf("rodou");
-
     }
-
 }
